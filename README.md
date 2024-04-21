@@ -27,3 +27,51 @@ Project Breakdown:
 •	Data Preprocessing and Feature Engineering is done for insights into the Hopsworks, creating feature groups, data preprocessing, and feature engineering.
  
 •	Final Steps: They cover final data merging, storing features.
+
+Data Description:
+The project involves the following data tables:
+ 
+•	City Weather: Weather data for various cities
+•	Routes: Information about truck routes, including origin, destination, distance, and travel time
+•	Drivers: Details about truck drivers, including names and experience
+•	Routes Weather: Weather conditions specific to each route
+•	Trucks: Information about the trucks used in logistics operations
+•	Traffic: Traffic-related data
+•	Truck Schedule: Schedules and timing information for trucks
+
+
+
+Tech Stack:
+•	Language: Python, SQL
+•	Libraries:  NumPy, Pandas, PyMySQL , Psycopg2, Matplotlib, Seaborn
+•	Data Storage: PostgreSQL,MySQL, AWS RDS, Hopsworks
+•	Data Visual Tool(SQL): MySQL Workbench, Pgadmin4
+•	Feature Store: Hopsworks
+•	Cloud Platform: AWS Sagemaker
+
+
+•	Database Setup:
+o	Creating AWS RDS instances for MySQL and PostgreSQL
+o	Setting up MySQL Workbench and pgAdmin4 for database management
+
+•	Data Analysis:
+o	Performing data analysis using SQL on MySQL Workbench and pgAdmin4
+
+•	AWS SageMaker Setup:
+
+•	Exploratory Data Analysis (EDA):
+o	Conducting exploratory data analysis to understand essential features and the dataset's characteristics
+
+•	Feature Store:
+o	Understanding the concept of a feature store and its significance in machine learning projects
+o	Understanding how Hopsworks works to facilitate project creation and feature group management
+
+•	Data Retrieval from Feature Stores
+ 
+•	Fetching data from feature stores for further analysis
+
+•	Data Preprocessing and Feature Engineering
+
+•	Data Storage:
+o	Storing the final engineered features in the feature store for easy access and consistency
+
